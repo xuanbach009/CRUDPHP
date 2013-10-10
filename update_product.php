@@ -35,5 +35,6 @@ if (isset ( $_POST ['update'] )) {
 		// header() redirect
 		header ( 'Location: http://localhost/PHPAssignment/display_product.php' );
 	}
+	echo "Hello";
 }
 ?>
